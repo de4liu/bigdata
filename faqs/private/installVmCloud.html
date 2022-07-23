@@ -1,0 +1,23 @@
+
+
+<h1 dir="auto"><a id="install-the-msba6330-virtual-machine-on-your-virtual-desktop" class="anchor" aria-hidden="true" href="#install-the-msba6330-virtual-machine-on-your-virtual-desktop"></a>Install the MSBA6330 virtual machine on your virtual desktop</h1>
+<p dir="auto">In this tutorial you will setup your MSBA virtual machine for use on your virtual desktop.</p>
+
+<iframe style="width: 640px; height: 480px;" title="Install the MSBA6330 virtual machine on your virtual desktop" src="https://www.youtube.com/embed/oYINBCGcsxc?feature=oembed&amp;rel=0" width="640" height="480" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe>
+
+<p dir="auto">Once you're in your virtual desktop:</p>
+<ol dir="auto">
+<li>Opening Git CMD</li>
+<li><code>cd c:/</code></li>
+<li><code>git clone https://github.umn.edu/deliu/vagrant.git vagrantcopy</code> -- to clone the vagrant folder from instrutor's git repository vagrant.</li>
+<li>Typing your x500 and password when prompted (credentials get saved to Windows Credential Manager)</li>
+<li><code>cd c:/vagrantcopy</code></li>
+<li><code>cp -r .git c:/vagrant/.git</code> -- copy the .git folder to c:/vagrant folder which makes this folder linked to instrutor's git repository</li>
+<li><code>rm -rf c:/vagrantcopy</code> -- Remove the temporary git repository</li>
+<li><code>cd /vagrant</code></li>
+<li><code>vagrant box add MSBA6330 Y:/MSBA6330.box</code> -- create a virtual machine named MSBA6330 using the package file on Y drive.</li>
+<li><code>vagrant up</code> -- initialize and start the virtual machine. Next time, if you need to start the VM, just go to c:/vagrant and do a vagrant up</li>
+<li><code>ssh cloudera@localhost -p 2222</code> -- ssh into the VM via port 2222. When asked if you will continue to connect, answer "yes". When prompted for password, type "cloudera"</li>
+<li>Now you can work from the command line through the SSH window, or start a GUI from VirtualBox ("play" the running VM)</li>
+<li>When you need to shutdown the VM, go to the git bash, and at c:/vagrant, type <code>vagrant halt</code></li>
+</ol>
