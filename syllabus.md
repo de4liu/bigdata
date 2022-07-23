@@ -7,7 +7,7 @@ Instructor| **Dr. De Liu**
 Email | [deliu@umn.edu](mailto:deliu@umn.edu) 
 Contact | Slack (http://msba6331fall2021.slack.com) or email
 Meetings | Sec 1:  Tuesday 9:15-11:45am / Sec 2: Tuesday 1:45-4:15pm 
-Office Hours | Tuesday 1:00-1:30pm & 4:15-4:45pm (in 15 min slots, need reservations beforehand) or by appointment. 
+Office Hours | Tuesday 1:00-1:30pm & 4:30-5:00pm (In 15 min slots, need reservations beforehand) or by appointment. Zoom option available 
 Course Server | [z.umn.edu/csom-atk](https://z.umn.edu/csom-atk) 
 Teaching Assistant | Benjamin Lilja (lilja042@umn.edu)
 
