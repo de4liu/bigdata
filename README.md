@@ -2,8 +2,10 @@
 
 This repository servers as a public homepage for MSBA 6331 - Big Data Analytics at Carlson School, University of Minnesota. It also hosts the syllabus and FAQs. 
 
+[public homepage page](https://de4liu.github.io/bigdata2022/)
+
 ## Syllabus
-- [Syllabus](syllabus.html)
+- [Syllabus](syllabus.html): also [public syllabus](https://de4liu.github.io/bigdata2022/syllabus.html)
 
 ## Homework Related Instructions & Questions
 - [Homework Guidelines](faqs/homework-guidelines.md)
