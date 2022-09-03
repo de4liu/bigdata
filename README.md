@@ -1,9 +1,9 @@
-# MSBA 6330 Big Data Analytics (Spring 2021)
+# MSBA 6331 Big Data Analytics (Fall 2022)
 
-This repository servers as a public homepage for MSBA 6330 - Big Data Analytics at Carlson School, University of Minnesota. It also hosts the syllabus and FAQs. 
+This repository servers as a public homepage for MSBA 6331 - Big Data Analytics at Carlson School, University of Minnesota. It also hosts the syllabus and FAQs. 
 
 ## Syllabus
-- [Syllabus](syllabus.md)
+- [Syllabus](syllabus.html)
 
 ## Homework Related Instructions & Questions
 - [Homework Guidelines](faqs/homework-guidelines.md)
@@ -12,13 +12,13 @@ This repository servers as a public homepage for MSBA 6330 - Big Data Analytics 
 
 ## Computing environment
 
-- [Apply for AWS Education](https://docs.google.com/document/d/1kB2TBG3gpWQLQO8Xyg6iiZVm3CnbB8lHtx97C_pqLdM/edit)
+<!-- - [Apply for AWS Education](https://docs.google.com/document/d/1kB2TBG3gpWQLQO8Xyg6iiZVm3CnbB8lHtx97C_pqLdM/edit) -->
 - [AWS setup instructions](https://docs.google.com/document/d/11ops7258BSfQcBevS20-ONISQymn-gyNXCMHBB5aL1k/edit#)
-- [Vagrant: Introduction & Quick Reference](faqs/vagrant.md)
+<!-- - [Vagrant: Introduction & Quick Reference](faqs/vagrant.md) -->
 <!-- - [How to reduce the size of the Cloudera VM](faqs/rebuild_vm.md) -->
-- [How to update the Vagrant folder](faqs/update_vagrant.md)
+<!-- - [How to update the Vagrant folder](faqs/update_vagrant.md) -->
 <!-- - [Install Cloudera VM on MSBA desktop](faqs/installVmCloud.md) -->
-- [Install Cloudera VM on your own computer](faqs/installVM.md)
+<!-- - [Install Cloudera VM on your own computer](faqs/installVM.md) -->
 
 - [Install Spark Updates on Cloudera VM](faqs/installSparkUpdates.md): if you run into issues, here are [suggestions for diagnosis](faqs/diagnoseSparkUpdates.md)
 
@@ -27,7 +27,7 @@ This repository servers as a public homepage for MSBA 6330 - Big Data Analytics 
 - [How to edit Linux text/script files](faqs/edit_linux_file.md)
 - [How to convert Windows line endings to Linux ones](faqs/line_endings.md)
 - [How to debug Hadoop streaming programs outside of Hadoop](faqs/debug_hadoop_streaming.md)
-- [How to Debug MapReduce Jobs](faqs/debug_hadoop.md)
+<!-- - [How to Debug MapReduce Jobs](faqs/debug_hadoop.md) -->
 
 ## Hive
 - [How to Fix Hive metastore db error](faqs/hive_debug.md)
@@ -40,7 +40,7 @@ This repository servers as a public homepage for MSBA 6330 - Big Data Analytics 
 - [Common Issues with Running PySpark](faqs/sparkfaq.md): Addresses a few common issues with running PySpark on Cloudera VM.
 
 ## MISC
-- [Install Teamviewer to enable instructor remote access to your MSBA virtual desktop](faqs/teamviewer.md)
+<!-- - [Install Teamviewer to enable instructor remote access to your MSBA virtual desktop](faqs/teamviewer.md) -->
 - [Recommended text editors](faqs/textEditor.md)
 - [Windows command 101](faqs/windows_cmd.md)
 - [How to View Delimiters and Invisible Characters](faqs/viewdelimiters.md)
