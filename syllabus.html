@@ -1,0 +1,486 @@
+<div id="kl_wrapper_3" class="kl_bookmark csom_syllabus kl_wrapper">
+    <div id="kl_banner">
+        <h2><span id="kl_banner_left"><span class="kl_mod_text">MSBA </span><span class="kl_mod_num">6331 </span> </span><span id="kl_banner_right">Big Data Analytics</span></h2>
+        <p class="kl_subtitle">Sec 001/002, Fall 2022, 3 credits</p>
+    </div>
+
+    <div id="kl_syllabus_block_sub_3" class="">
+        <h3>Course Meeting Information</h3>
+        <p><strong>Time:</strong> September 6 - December 13, 2022, Tuesdays</p>
+        <p style="padding-left: 40px;"><strong>Sec 001:&nbsp;</strong>9:15-11:45am in CSOM 2-206</p>
+        <p style="padding-left: 40px;"><strong>Sec 002:</strong> 1:45-4:15pm in CSOM 2-215</p>
+    </div>
+    <div id="kl_syllabus_block_sub_0" class="">
+        <h3>Course Instructor</h3>
+        <h4>Dr. De Liu</h4>
+        <p class="" style="margin-bottom: 0px;">Professor<br />Department of Information and Decision Sciences<br />Carlson School of Management<br />University of Minnesota, Twin Cities<br /><strong>Email</strong>: <a class="inline_disabled" href="mailto:deliu@umn.edu" target="_blank" rel="noopener">deliu@umn.edu</a><br /><strong>Contact:</strong> Slack (<a class="external" href="http://msba6331fall2022group.slack.com/" target="_blank" rel="noopener">http://msba6331fall2022group.slack.com</a>) or email</p>
+        <p class="" style="margin-top: 0px; margin-bottom: 0px;"><strong>Office Hours: </strong> Tuesdays 12:30-1:30 (Please book the slots on google calender in advance) or by appointment </p>
+        <p class="" style="margin-top: 0px;"><strong>Course Server:&nbsp;</strong><a class="external" href="https://z.umn.edu/csom-atk" target="_blank" rel="noopener"><span>z.umn.edu/csom-atk</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span></a></p>
+    </div>
+    <div id="kl_syllabus_block_sub_1" class="">
+        <h3>Teaching Assistant</h3>
+        <h4>Tushar Gowda</h4>
+        <p><strong>Email:</strong> gowda019@umn.edu <br /><strong>Office Hours</strong>: Mondays 4-5pm via Zoom </p>
+    </div>
+    <div id="kl_syllabus_block_sub_2" class="">
+        <h3>Introduction</h3>
+        <p>This course provides an introduction to big data concepts, environments, processes, and tools from the perspective of data science professionals. It uses a hands-on, learning-by-doing approach to develop an understanding of major elements of the big data ecosystems and develop hands-on competency with key big data tools and processes such as Hadoop, Hive, Spark, Snowflake and Cloud Computing. This course prepares data analysts for using big data tools on daily basis and is a stepstone for big data engineering careers. </p>
+        <p>Because the topics covered in this course are vast and evolving quickly, students are expected to engage in active learning through troubleshooting, experimentation, proactive research, and sharing (via Slack).</p>
+    </div>
+    <div id="kl_custom_block_0" class="">
+        <h4>Learning Objectives</h4>
+        <p>This course has two main categories of objectives.</p>
+        <ol>
+            <li>Develop an understanding of the big data ecosystem, the kinds of problems it aims to solve, the characteristics of big data technologies, and their key advantages and disadvantages. Such an understanding allows you to recognize opportunities and challenges associated with big data, from both business and technological perspectives, and to guide businesses in adopting and using big data technologies.</li>
+            <li>Develop core competencies in a variety of essential big data tools (such as Hadoop, Hive, Spark, Snowflake, and Cloud computing) and processes (such as ML pipelines) for solving data science problems and deploying business analytics solutions at scale.</li>
+        </ol>
+    </div>
+    <div id="kl_custom_block_1" class="">
+        <h4>Prerequisites</h4>
+        <p>This course is built on a sequence of courses offered in the MSBA program including Python programming (MSBA 6311) and database management (MSBA 6321). As prerequisites for this course, students are expected to:</p>
+        <ul>
+            <li>Have a basic knowledge of computing systems (operating systems, file systems, conceptual understanding of how computers work).</li>
+            <li>Be familiar with SQL and relational databases
+                <ul>
+                    <li>Those who lack knowledge of SQL and relational databases are advised to learn from many available resources, such as the<span>&nbsp;</span><a class="external" href="https://www.linkedin.com/learning/sql-essential-training-3/understanding-sql?autoplay=true" target="_blank" rel="noopener"><span>SQL essential training on LinkedIn Learning</span></a>.</li>
+                </ul>
+            </li>
+            <li>Be familiar with Python programming
+                <ul>
+                    <li>This course will use Python as its primary scripting language. If you have not been exposed to these programming languages before, there are many free introductory online courses on Python (e.g. the Python course from<span>&nbsp;</span><a class="external" href="https://www.codecademy.com/learn/python" target="_blank" rel="noopener"><span>Codecademy</span></a><span>&nbsp;</span>and<span>&nbsp;</span><a class="external" href="https://www.datacamp.com/courses/intro-to-python-for-data-science" target="_blank" rel="noopener"><span>Introduction for Python for Data Science</span></span></a><span>&nbsp;</span>from DataCamp).</li>
+                </ul>
+            </li>
+        </ul>
+        <p>The following are also helpful to know:</p>
+        <ul>
+            <li>Some familiarity with the command-line interface (CLI) and Linux operating systems.</li>
+            <li>Some understanding of machine learning methods, e.g., linear regression, logistic regression, and k-means clustering.</li>
+        </ul>
+    </div>
+
+<div id="kl_syllabus_block_sub_6" class="">
+    <h3>Textbook</h3>
+    <p><span>We do not have a required text for this course. Instead, we rely on our lecture slides, lab notes, and
+            additional reading materials (articles &amp; book chapters).</span></p>
+</div>
+<div id="kl_custom_block_2" class="">
+    <h3>Software &amp; Hardware</h3>
+    <p>Most of the software used for this course is cloud-based, either provided by the program's IT team or relying on
+        free/trial cloud services.</p>
+    <ul>
+        <li>
+            <p><strong>Hadoop/Hive</strong>: We use the servers (CSOM Analytics Toolkit, or CSOM-ATK) developed by CSOM IT, hosted on AWS. The servers
+                pre-install big data tools such as Hadoop, MapReduce, Sqoop, Hive, Spark, and datasets used for this
+                course.</p>
+        </li>
+        <li>
+            <p><strong>Spark</strong>: We will use the DataBricks community edition (<a class="external"
+                    href="https://community.cloud.databricks.com/login.html" target="_blank"
+                    rel="noopener"><span>https://community.cloud.databricks.com/login.html</span></a>) for the Spark
+                portion of the course work. The DataBricks community edition provides a free service for a limited virtual machine (12GB
+                RAM, 2 vCPU Cores). In the event of Databricks problems, we may fall back on the standard Spark server on CSOM-ATK or Spark virtual machine that you can install on your own computer following <span>&nbsp;</span><a class="external"
+                    href="https://github.com/paulovn/ml-vm-notebook" target="_blank"
+                    rel="noopener"><span>https://github.com/paulovn/ml-vm-notebook</span></a>.</p>
+        </li>
+        <li>
+            <p><strong>Snowflake</strong>: We will use the 30-day free trial of Snowflake which includes $400 worth of
+                free usage (<a class="external" href="https://signup.snowflake.com/" target="_blank"
+                    rel="noopener"><span>https://signup.snowflake.com/</span></a>).</p>
+        </li>
+        <li>
+            <p><strong>Amazon Web Services (AWS)</strong>. We will access the free AWS services ($100 worth of AWS
+                credits) through AWS Academy. Additionally, we may also leverage Microsoft Azure/Google Cloud
+                Computing's free/trial services.</p>
+        </li>
+    </ul>
+</div>
+<div id="kl_syllabus_block_sub_7" class="">
+    <h3>Grading</h3>
+    <p>Your grade will be based on the following activities (tentative):</p>
+    <table style="border-collapse: collapse;" border="blk">
+        <thead>
+            <tr class="header">
+                <th><strong>Activity</strong></th>
+                <th><strong>Grade %</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>Team Project</td>
+                <td>15%</td>
+            </tr>
+            <tr class="even">
+                <td>Homework Assignments (7)</td>
+                <td>21%, 3% each</td>
+            </tr>
+            <tr class="odd">
+                <td>Self-assessment quizzes</td>
+                <td>10%</td>
+            </tr>
+            <tr class="even">
+                <td>Lab completion</td>
+                <td>5%</td>
+            </tr>
+            <tr class="odd">
+                <td>In-class Polls</td>
+                <td>1.5%</td>
+            </tr>
+            <tr class="even">
+                <td>Slack Participation</td>
+                <td>0.5%</td>
+            </tr>
+            <tr class="odd">
+                <td>Midterm Exam</td>
+                <td>25%</td>
+            </tr>
+            <tr class="even">
+                <td>Final Exam</td>
+                <td>22%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>A final letter grade is given according to the following scale.</p>
+    <table style="border-collapse: collapse;" border="blk">
+        <thead>
+            <tr class="header">
+                <th>%</th>
+                <th>Grade</th>
+                <th>%</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>93.0 or above</td>
+                <td>A</td>
+                <td>77.0 - 79.9</td>
+                <td>C+</td>
+            </tr>
+            <tr class="even">
+                <td>90.0 - 92.9</td>
+                <td>A-</td>
+                <td>73.0 - 76.9</td>
+                <td>C</td>
+            </tr>
+            <tr class="odd">
+                <td>87.0 - 89.9</td>
+                <td>B+</td>
+                <td>70.0 - 72.9</td>
+                <td>C-</td>
+            </tr>
+            <tr class="even">
+                <td>83.0 - 86.9</td>
+                <td>B</td>
+                <td>60.0 - 69.9</td>
+                <td>D</td>
+            </tr>
+            <tr class="odd">
+                <td>80.0 - 82.9</td>
+                <td>B-</td>
+                <td>Below 60.0</td>
+                <td>F</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Though it rarely happens, this scale may be adjusted to ensure compliance with MSBA grading policies, which
+        requires a class median GPA of 3.3 +/- 0.2.</p>
+
+    <p>Carlson School uses a grading policy based upon a class median aggregate GPA. Learn more about the&nbsp;<a
+                href="https://z.umn.edu/policy-carlson_graduate_grading">Carlson Course Grading Policy.</a></p>
+
+</div>
+<div id="kl_custom_block_3" class="">
+    <h3>Homework Assignments</h3>
+
+    <h4>Homework Academic Integrity</h4>
+    <p><strong>All homework assignments are INDIVIDUAL assignments</strong>. Plagiarism is prohibited and will be
+        penalized. You may still discuss the homework problems with fellow students.<span>&nbsp;</span><strong>However,
+            no documents or fragments of homework should be shared between students, physically or digitally.</strong> A
+        rule of thumb is that you should have "typed it with your own hands".<span>&nbsp;</span>Sharing homework papers
+        is strictly forbidden and is considered plagiarism, and both the one who shared and the one who received them can
+        face a penalty, including zero grade for the assignment, a letter grade downgrade, and an "F" for the course. All
+        scholarly dishonesty incidence will be reported to the University's<span>&nbsp;</span><a class="external"
+            href="https://communitystandards.umn.edu/address-misconduct/responding-scholastic-dishonesty"
+            target="_blank" rel="noopener"><span>Office of Community Standards</span><span
+                class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span></a>. In case
+        of difficulty with homework assignments, please reach out to the instructor or TA as early as possible.</p>
+    <p><strong>Reusing someone else's work</strong> (including those from the Internet) without accrediting the source
+        properly is also considered plagiarism.<span>&nbsp;</span>You must <strong>cite such work</strong> and precisely point out which part of
+            your answer refers to the work and include a reference to the source.</strong><span>&nbsp;</span>Refer to our
+        submission guidelines for more homework-related instructions.</p>
+    
+        <h4>Late Policy - Flex Days</h4>
+    <p><strong>You have 5 flex days</strong><span>&nbsp;</span>that you may use at your discretion to defer the due date
+        of a homework assignment or self-assessment quizzes (a set of self-assessment quizzes due on the same day is considered
+        one "assignment"). You must use your flex days in the whole day (24 hours) increments. You can defer a single
+        assignment by<span>&nbsp;</span><strong>a maximum of 2 days</strong>.</p>
+    <p>You do not need to notify us if you want to use your flex days on homework or self-assessment quizzes! Submit
+        your homework/self-assessment quizzes when ready and the proper number of flex days will be deducted. If you do
+        not want to use your flex days on a certain assignment, please let the TA know.</p>
+    <p>Flex days are intended to be used for unforeseen circumstances such as technical difficulties, family
+        emergencies, and personal illness.<span>&nbsp;</span><strong>After your flex days have been used for the
+            semester, late work will not be accepted and will earn no credit (0 points)</strong>.</p>
+
+    <h4>Homework Grading</h4>
+    <p>Homework assignments are usually graded by TA within one week of the due date. Homework is graded on a scale of 0 to
+        10. If you get 10, you will receive the full 3% credit. If you get 9, you will receive 2.7% credit, and so
+        on. The instructor/TA reserves the right to give extra credits for exceptional work.</p>
+
+    <h4>Safeguard Your Work</h4>
+    <p>You should always save a copy of your submitted work, including homework, team projects, and the exams. Store the
+        copy in a secure location (such as your Google Drive).</p>
+</div>
+<h3>Self-assessment Quizzes</h3>
+<p><span>We allow open notes for self-assessment quizzes but this must be your own work. You cannot collaborate with any other individual in any way. That is, there should not be any discussion of the quiz between you and others (including those from the Internet) before or during the quiz. </span></p>
+
+<div id="kl_custom_block_4" class="">
+    <h3>Team Project - Trend Marketplace</h3>
+    <p><span>The team project is evaluated by your peers, the instructor, and external judges. The team project is
+            generally evaluated along the lines of value, presentation, rigor, and creativity. While in general every
+            team member receives the same credit, those who lack contribution (as reflected by peer evaluation within
+            the group) may receive partial to zero credit. For detailed guidelines about team projects, please see the
+            team assignment handout.</span></p>
+</div>
+
+<div id="kl_syllabus_block_participation" class="">
+
+<h3>In-class Polls</h3>
+
+We use in-class polls to increase engagement, gauge learning, and audit attendance (by not attending the class, you will miss these poll questions). 
+Your in-class poll credit consists of 30% participation and 70% performance, where "participation" is defined as the number of polls participated divided by the total number of polls conducted, and "performance" is calculated as the number of polls you answered correctly divided by the number of polls that has right/wrong answers (opinions polls have no right/wrong answer).
+
+<h3>Slack Participation</h3>
+<p>To encourage active participation and complement classroom instruction, we have a dedicated <strong>#bigdata-news-articles</strong> slack channel for sharing big-data news, articles, and discussions of related topics (not associated with an assignment). When you share a post, please try to add your take (e.g. what's interesting about the article and why we need to know read it) and provide a link.  We encourage interactions with other people's posts by liking and/or commenting. A tentative grading scheme is as follows:
+        <ul>
+            <li>a post of at least 20 words in the<span>&nbsp;</span><strong>#bigdata-news-articles
+                    </strong> channel: 10 points</li>
+            <li>a comment of at least 5 words in the<span>&nbsp;</span><strong>#bigdata-news-articles
+                    </strong> channel: 2 points</li>
+            <li>you will receive the full 0.5% slack participation grade if you reach 20 points by the end of the semester.</li>
+            <li>To encourage spreading your contribution over time, only your <strong>first post</strong> and <strong>first 3 comments</strong> on any given day will
+                receive points</li>
+            <li>We will take a snapshot of contributions at the end of the semester - later contributions will not be considered. I will NOT pre-announce the cut-off date, so please do not wait till the last minute to contribute articles and comments.</li>
+        </ul>
+
+<p>The instructor reserves the right to adjust slack participation credits based on subjective evaluation of student
+    participation and/or finetune the grading scheme.</p>
+
+</div>
+
+<div id="kl_syllabus_block_modality" class="">
+<h3>Modality </h3>
+
+This course is scheduled as an in-person course. I intend to hold all class sessions in-person except if situational
+factors arise, such as personal illness of the instructor, when the class may be held synchronously via Zoom or recorded
+for later viewing.
+
+Students who fall ill should notify the instructor as soon as possible and may utilize the recorded lectures. 
+
+</div>
+
+<div id="kl_syllabus_block_modality" class="">
+    <h3>COVID-19 Symptoms, Vaccination, Excused Absences, and Face Coverings </h3>
+
+    You should stay at home if you experience any signs of illness or have a positive COVID-19 test result. If this occurs,
+please consult with your healthcare provider about an appropriate course of action. I will follow these same protocols
+and will let you know if the delivery of this course has to be temporarily changed as a result of my own
+circumstances. Absences related to illness, including COVID-19 symptoms, for yourself or your dependents, are legitimate
+“excused” absences.
+</div>
+
+    <div id="kl_syllabus_block_sub_9" class="">
+        <h3>Course Communication</h3>
+
+        <h4>Canvas Announcements </h4>
+        <p>The instructor will use Canvas Announcements for course-relevant announcements. If you have not altered your notification settings, you will receive announcements in your UMN email immediately when they are made. If you have altered these settings, it is highly recommended that you reset "Announcements" back to "Notify immediately" in <a class="inline_disabled" href="/profile/communication" target="_blank" rel="noopener">your communication settings</a> as seen below so that you receive notices in a timely manner.<br /><img class="" src="https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/announcements_notifications.png" alt="Notification frequency settings. 4 options: Notify immediately, Daily summary, Weekly summary, Notifications off" width="538" height="63" /><br />You may also choose to receive notifications through additional channels including a personal email address or push notifications on your phone if you install the Canvas app. Additional channels can be added through your <a href="/profile/settings">Canvas Settings</a>.</p>
+
+        <h4>Slack Discussion </h4>
+
+        We use slack as a Q&A and discussion forum. We use slack to: 
+
+        <ul>
+            <li>discuss technical and administrative issues</li>
+            <li>discuss issues related to labs/slides/homework assignments. </li>
+            <li>general discussion and sharing</li>
+            <li>share big data news, articles, and your opinion on related topics (see the Slack Participation section for details)</li> 
+        </ul>
+
+        <p>Do's and Don'ts </p>
+        <ul>
+            <li>When you share a technical issue/problem, please include context, screen shots, error message etc.</li>
+            <li>Please do NOT post your homework answer or partial answers on shared Slack channels as it may raise concerns of
+            plagiarism. Use a private channel to instructor/TA or email to share those.</li>
+        </ul>
+        
+        <h4 id="getting-help">Getting Help</h4>
+        <p>Slack is the best way to reach the instructor/TA. You are also encouraged to utilize instructor/TA's office hours and make an appointment if needed. For general technical problems concerning user
+            accounts, hardware, or software, you may contact the<span>&nbsp;</span><a class="external"
+                href="http://goo.gl/pjMh1K" target="_blank" rel="noopener"><span>CSOM IT Help Desk (<a href="mailto:csomhelp@umn.edu">csomhelp@umn.edu</a>)</span></a>.</p>
+
+    </div>
+    <div id="kl_syllabus_block_sub_10" class="">
+        <h3>Exam Proctoring</h3>
+        <p><span>This course may utilize online proctoring software on course assessments to ensure course outcome integrity and equity in knowledge assessments for all students. The University&rsquo;s online proctoring solution is Proctorio. Proctorio is easy-to-use, scalable, privacy-focused, and&nbsp;</span><a class="external" href="https://proctorio.com/ferpa" target="_blank" rel="noopener"><span>FERPA-compliant</span></a><span>. Visit the&nbsp;</span><a class="external" href="https://it.umn.edu/services-technologies/how-tos/proctorio-student-guide" target="_blank" rel="noopener"><span>University&rsquo;s site on student Proctorio use</span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span></a><span>&nbsp;for additional information, as well as&nbsp;</span><a class="external" href="https://proctorio.com/about/privacy" target="_blank" rel="noopener"><span>Proctorio&rsquo;s own privacy site</span></a></p>
+    </div>
+    
+<!-- 
+    <div id="kl_custom_block_6" class="">
+        <h3>Student Rating of Teaching (SRT) Evaluation</h3>
+        <p><span>The Student Rating of Teaching (SRT) evaluation for our class will be online. </span><strong>I plan to set aside time during a specific class session for you to complete the SRT as part of class activities on that day.&nbsp;</strong></p>
+        <p><span>If you will be attending class remotely that day, you may complete the SRT from your remote location.&nbsp; If you will be attending the class in-person (in the classroom that day), it will be important for you to remember to bring a laptop, smartphone or other Internet-enabled device with you to class.&nbsp; Please wait for my direction during class that day to complete this important class activity.</span></p>
+    </div> -->
+
+    <div id="kl_policies-carlson-and-university-policies_58600" class="kl_wrapper kl_locked kl_policy">
+        <div id="university_policies">
+            <h3 class="kl_panel_heading kl_panel_0">Carlson &amp; University Policies</h3>
+            <div class="kl_panels_wrapper">
+                <div id="kl_panel_0_content" class="kl_panel_content kl_panel_0">
+
+
+        <h4>Tennessen Warning Notice Pursuant to MN Department of Administration&rsquo;s Data Practices</h4>
+        <p><span>To make this class more accessible to all enrolled students, we intend to record all class lectures and
+                discussions.&nbsp; Since your audio/video may be part of those recordings we are informing you.&nbsp; Along
+                with the instructor and teaching assistants, these recordings will be shared with only the students enrolled
+                in the class during this semester, in accordance with FERPA regulations.</span></p>
+
+                <h4>Student Academic Misconduct and Scholastic Dishonesty</h4>
+                    <p>The Carlson School defines academic misconduct as any act by a student that misrepresents the student's own academic work or that compromises the academic work of another. Scholastic misconduct includes (but is not limited to) cheating on assignments or examinations, plagiarizing, i.e., misrepresenting as one's own work any work done by another, submitting the same paper, or substantially similar papers, to meet the requirement of more than one course without the approval and consent of the instructors concerned, or sabotaging another's work. Within this general definition, however, instructors determine what constitutes academic misconduct in the courses they teach. Students found guilty of academic misconduct face penalties ranging from lowering of the course grade or awarding a grade of F or N for the entire course, to suspension from the University.</p>
+                    <p>Review the&nbsp;<a href="https://z.umn.edu/policy-carlson_student_conduct_code">Student Conduct Code</a> and&nbsp;<a href="https://z.umn.edu/student_conduct_academic_integrity">Student Conduct and Academic Integrity website</a>.</p>
+                    <p>If you are interested in learning more about how to cite sources and avoid plagiarism,&nbsp;U of M libraries offers online <a href="https://z.umn.edu/research_citation_tools">tutorials and tools related to citations</a>. You can also visit the&nbsp;<a href="https://z.umn.edu/center_for_writing">Center for Writing</a>&nbsp;for additional assistance.</p>
+                    <h4>Accommodations for Students with Disabilities</h4>
+                    <p>The University of Minnesota is committed to providing all students equal access to learning opportunities.&nbsp;<br />The Disability Resource Center (DRC) is the campus office that works with students who have disabilities to provide and/or arrange reasonable accommodations. Students registered with the DRC, who have a letter requesting accommodations, are encouraged to contact the instructor early in the semester. Students who have, or think they may have, a disability (e.g. psychiatric, attention, learning, vision, hearing, physical, or systemic), are invited to contact the DRC for a confidential discussion at 612-626-1333 (V/TTY) or at <a href="mailto:drc@umn.edu">drc@umn.edu</a>. Additional information is available on the&nbsp;<a href="https://z.umn.edu/disability_resource_center">Disability Resource Center website</a>.</p>
+                    <h4>Title IX</h4>
+                    <p><a href="https://z.umn.edu/title_ix_process">Title IX</a> prohibits sex discrimination, including sexual harassment, sexual assault, stalking, and relationship violence, in education.</p>
+                    <h4>Students with Mental Health and Stress Management</h4>
+                    <p>As a student you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation. These mental health concerns or stressful events may lead to diminished academic performance or reduce a student's ability to participate in daily activities. University of Minnesota services are available to assist you with addressing these and other concerns you may be experiencing. Learn more about the broad range of confidential&nbsp;<a href="https://z.umn.edu/mental_health_services">mental health services</a>&nbsp;available on campus.</p>
+                    <h4>Student Writing Support</h4>
+                    <p>As a student, you may experience challenges in your writing. The University of Minnesota has a&nbsp;<a href="https://z.umn.edu/student_writing_support">student writing support resource</a>&nbsp;to help with your writing.</p>
+                    <h4>Additional University Policies</h4>
+                    <ol>
+                        <li>Grade definitions from the Administrative Policy:&nbsp;<a href="https://z.umn.edu/policy-grading_definitions_transcripts"><em>Grading and Transcripts: Twin Cities, Crookston, Morris, Rochester</em></a>.</li>
+                        <li>Scholastic Dishonesty (see Board of Regents Policy:&nbsp;<em><a href="https://z.umn.edu/policy-student_conduct_code">Student Conduct Code</a></em>&nbsp;and the Administrative Policy:&nbsp;<a href="https://z.umn.edu/policy-instructor_unit_responsibilities"><em>Teaching and Learning: Instructor and Unit Responsibilities: Twin Cities, Morris, Rochester</em></a>).</li>
+                        <li>Administrative Policy: <a href="https://z.umn.edu/policy-makeup_work"><em>Makeup Work for Legitimate Absences: Twin Cities, Crookston, Morris, Rochester</em></a></li>
+                        <li>Board of Regents Policy:&nbsp;<a href="https://z.umn.edu/policy-student_conduct_code"><em>Student Conduct Code</em></a>; Administrative Policy:&nbsp;<a href="https://z.umn.edu/policy-student_responsibilities"><em>Teaching and Learning: Student Responsibilities (Twin Cities, Crookston, Morris, Rochester)</em></a></li>
+                        <li>Board of Regents Policy:&nbsp;<em><a href="https://z.umn.edu/policy-sexual_harassment_assault_stalking_relationship_violence">Sexual Harassment, Sexual Assault, Stalking and Relationship Violence</a></em></li>
+                        <li>Board of Regents Policy:&nbsp;<em><a href="https://z.umn.edu/policy-equity_diversity_eo_aa">Equity, Diversity, Equal Employment Opportunity, and Affirmative Action</a></em></li>
+                        <li>Board of Regents Policy:&nbsp;<em><a href="https://z.umn.edu/policy-disability_services">Disability Services</a></em></li>
+                        <li>Statement about the availability of mental health and stress management services.<em></em></li>
+                        <li>Board of Regents Policy:&nbsp;<a href="https://z.umn.edu/policy-academic_freedom_responsibility"><em>Academic Freedom and Responsibility</em></a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="kl_custom_block_7" class="">
+        <h3>Schedule (tentative and subject to change)</h3>
+        <table style="border-collapse: collapse;" border="blk">
+            <thead>
+                <tr class="header">
+                    <th>Week</th>
+                    <th>Date</th>
+                    <th>Subject</th>
+                    <th>Assignments</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td>1</td>
+                    <td>Sep 6</td>
+                    <td>Introduction to Big Data & Hadoop Ecosystem</td>
+                    <td></td>
+                </tr>
+                <tr class="even">
+                    <td>2</td>
+                    <td>Sep 13</td>
+                    <td>Introduction to Hive</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 1</strong></td>
+                </tr>
+                <tr class="odd">
+                    <td>3</td>
+                    <td>Sep 20</td>
+                    <td>Introduction to Apache Spark</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 2</strong></td>
+                </tr>
+                <tr class="even">
+                    <td>4</td>
+                    <td>Sep 27</td>
+                    <td>Spark SQL</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 3</strong></td>
+                </tr>
+                <tr class="odd">
+                    <td>5</td>
+                    <td>Oct 4</td>
+                    <td>Spark SQL & Spark ML</td>
+                    <td></td>
+                </tr>
+                <tr class="even">
+                    <td>6</td>
+                    <td>Oct 11</td>
+                    <td>Spark ML</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 4</strong></td>
+                </tr>
+                <tr class="odd">
+                    <td>7</td>
+                    <td>Oct 18</td>
+                    <td>Spark Streaming</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 5</strong></td>
+                </tr>
+                <tr class="even">
+                    <td>8</td>
+                    <td>Oct 25</td>
+                    <td><span style="color: #e03e2d;"><strong>(No class) Midterm Exam: 4-7pm <br/>CSOM 2-206 & CSOM 1-115 (3M)</strong></span></td>
+                    <td></td>
+                </tr>
+                <tr class="odd">
+                    <td>9</td>
+                    <td>Nov 1</td>
+                    <td>Introduction to Snowflake</td>
+                    <td></td>
+                </tr>
+                <tr class="even">
+                    <td>10</td>
+                    <td>Nov 8</td>
+                    <td>Introduction to Snowflake (cont'd)</td>
+                    <td></td>
+                </tr>
+                <tr class="odd">
+                    <td>11</td>
+                    <td>Nov 15</td>
+                    <td>Cloud Computing and AWS</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 6</strong></td>
+                </tr>
+                <tr class="even">
+                    <td>12</td>
+                    <td>Nov 22</td>
+                    <td>Cloud Computing and AWS</td>
+                    <td></td>
+                </tr>
+                <tr class="odd">
+                    <td>13</td>
+                    <td>Nov 29</td>
+                    <td>Scaling ML Pipeline</td>
+                    <td><span style="color: #e03e2d;">Due:</span><span>&nbsp;</span><strong>Homework 7</strong></td>
+                </tr>
+                <tr class="even">
+                    <td>14</td>
+                    <td>Dec 6</td>
+                    <td><span style="color: #2dc26b;"><strong>(No class) Trend Marketplace: Atrium </strong></span></td>
+                    <td></td>
+                </tr>
+                <tr class="odd">
+                    <td>15</td>
+                    <td>Dec 13</td>
+                    <td>TBD</td>
+                    <td></td>
+                </tr>
+                <tr class="even">
+                    <td>16</td>
+                    <td>Dec 19</td>
+                    <td><span style="color: #e03e2d;"><strong>Final Exam:12-3pm <br/> CSOM 115 (3M) and CSOM 206 </strong></span></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Last revision: September 1, 2022</p>
+    </div>
+</div>
