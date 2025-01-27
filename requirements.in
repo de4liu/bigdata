@@ -1,0 +1,5 @@
+# pip install pip-tools
+# # use pip-tools to generate requirements.txt from requirements.in
+# pip-compile requirements.in
+
+mkdocs-material[imaging]
