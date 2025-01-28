@@ -9,7 +9,10 @@ Databricks is the company behind Apache Spark. The community edition offers you 
 - To sign up for Databricks Community Edition, follow the instructions here: [https://docs.databricks.com/en/getting-started/community-edition.html](https://docs.databricks.com/en/getting-started/community-edition.html)
     - We recommend you use **UMN email** for the sign up. 
     - On the page, "How do you plan on using Databricks?", choose the **Community Edition**.
+    - At the final page, be sure to choose the **"Get started with Community Edition"** (the grey button instead of the red button) -- see a picture below. 
     - As suggested, after signing in, you may try the [Get started: Query and visualize data from a notebook](https://docs.databricks.com/en/getting-started/quick-start.html) to familiarize yourself with Databricks.
+
+![Community Edition Button](assets/databricks.png)
 
 - After that, you can bookmark this page [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html?_ga=2.256757835.1990113872.1737411447-2021537352.1737411446) for future log on.
 
