@@ -1,4 +1,4 @@
-# Dualcore Dataset Reference
+# Lab Dataset Reference: Dualcore
 
 ## Tables Imported from MySQL
 

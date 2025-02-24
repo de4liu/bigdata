@@ -1,4 +1,4 @@
-site_name: Big Data Analytics Documentation
+site_name: Resources for MSBA 6331 Big Data Analytics
 site_url: https://de4liu.github.io/bigdata/
 theme:
   name: material
@@ -28,6 +28,32 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
+
+nav:
+    - Home: index.md
+    - FAQs: 
+        - "Embed Images in Notebooks": FAQs/addimage.md
+        - "Git Cheatsheet": FAQs/cheatsheet_git.md
+        - "Config Git": FAQs/configGit.md
+        - "Debug MapReduce Jobs": FAQs/debug_hadoop.md
+        - "Debug Hadoop Streaming Jobs": FAQs/debug_hadoop_streaming.md
+        - "Edit files in Linux": FAQs/edit_linux_file.md
+        - "Fix Hive metastore db error": FAQs/hive_debug.md
+        - "Homework Submission Guidelines-guidelines": FAQs/homework-guidelines.md
+        - "Install Spark Locally on your Own Computer": FAQs/installLocalSpark.md
+        - "Issues with Line Endings in Text Files": FAQs/line_endings.md
+        - "Convert Markdown to PDF": FAQs/markdown2pdf.md
+        - "Mount s3 folder to databricks": FAQs/mounts3.md
+        - "Common Issues with PySpark": FAQs/sparkfaq.md
+        - "Recommended Text Editors for Scripting & Text File Handling": FAQs/textEditor.md
+        - "View Delimiters and Invisible Characters": FAQs/viewdelimiters.md
+        - "Windows Commands 101": FAQs/windows_cmd.md
+    - "Pre-work": prework.md
+    - "Homework Guidelines": homework-guidelines.md
+    - "Trends Market": trendsMarket.md
+    - "Public Datasets": datasets.md
+    - "Lab Data Reference": lab_appendix.md
+
 
 plugins:
   - search
