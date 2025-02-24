@@ -2,8 +2,6 @@
 
 *Draft revision: 2025-02-23*
 
-**MSBA Big Data and AI Trends Market, Fall 2025**
-
 **Time/Location: April 25, 3:00-4:30pm Humphrey**
 
 ## **Goals and Requirements** {#1.-project-goals-and-requirements}
