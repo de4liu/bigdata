@@ -106,11 +106,10 @@ A git repository is a preferred way of showcasing your skill sets (e.g. to poten
 
 Your **git repository** should include the following components:
 
-* **(required)** A **README.md** markdown file that serves as a project homepage and introduction/**executive summary**. It also provides links to more project-related materials, e.g. video, flier, links to dataset, links to relevant articles/resources. The readme should mention that “*This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota*.”   
+* **(required)** A **README.md** markdown file that serves as a project homepage and introduction/**executive summary**. It also provides links to more project-related materials, e.g. flier, links to dataset, links to relevant articles/resources. The readme should mention that “*This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota*.”   
 * **(required)** An **instruction**: provide instructions on how to use (reuse) this project’s codes (e.g. setup/installation, commands, steps, requirements etc).  
 * **(required)** **Project scripts** (commands, python scripts, jupyter notebooks, SQL queries etc) that you use in the project with proper documentation/comments for ease of understanding. *Please note that the code should be free of password and credentials* (you should not commit such confidential information to the repository to begin with). 
 * **(required)** The **flier** (pdf).  
-* **(optional)** You may choose to provide a link to the project video in the README.md.  
 * (optional) bibliography and credits: give credits to sources that you use (e.g.,  papers/articles, web pages, data source, git repository etc). This is part of the scholarly honesty requirements and allows the instructor to evaluate the amount/quality of work the team has done.   
 * (optional) additional resources (e.g., pdf documents and/or links to external resources).  
 * (optional) sample data (small data, but not the whole data because github is not meant for storing large quantities of data). ***Note**: big files should be submitted via Google drive*. 
@@ -121,9 +120,9 @@ Here is a simple guide on [how to organize your data science git repo](https://m
 
 We use the following evaluation methods:
 
-* (10%) **Completing your deliverables** (project video, flier, git repository, evaluation of other teams & your teammates)  
-* (40%) **Peer evaluation**. Each student will evaluate at least two other team’s projects based on the team’s project video, flier, git repository, and booth visit.  
-* (25%) **Instructor evaluation**. The instructor will evaluate each project based on the team’s team’s project video, flier, and git repository.  
+* (10%) **Completing your deliverables** (project flier, git repository, evaluation of other teams & your teammates)  
+* (40%) **Peer evaluation**. Each student will evaluate at least two other team’s projects based on the team’s project flier, git repository, and booth visit.  
+* (25%) **Instructor evaluation**. The instructor will evaluate each project based on the team’s team’s project flier, and git repository.  
 * (25%) **External evaluation**. External evaluators’ evaluation of the project.   
 * (5% bonus) **Best in show**: Each team will submit a consensus list of their picks for the top 3 projects of the entire session.
 
