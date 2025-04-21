@@ -53,6 +53,7 @@ nav:
     - "Trends Market": trendsMarket.md
     - "Public Datasets": datasets.md
     - "Lab Data Reference": lab_appendix.md
+    - "Kion Cloud Portal": kion.md
 
 
 plugins:
