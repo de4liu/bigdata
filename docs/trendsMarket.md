@@ -98,7 +98,7 @@ Prior to the day of the Trend Marketplace, the team will need to prepare the fol
 ### **Post-event Final deliverable** {#2.4-final-deliverable}
 
 
-* Please submit your **github** link and the **video presentation** link to the  [Google doc](https://docs.google.com/document/d/1N0Xt_rOYABV7DEuAdMEXxPVD1Zi7b1rzIxlgxM0d4iY/edit?usp=sharing) as well as the **Trends Market assignment** on canvas before the submission deadline.
+* Please submit your **github** link to the  [Google doc](https://docs.google.com/document/d/1N0Xt_rOYABV7DEuAdMEXxPVD1Zi7b1rzIxlgxM0d4iY/edit?usp=sharing) as well as the **Trends Market assignment** on canvas before the submission deadline.
 
 **Github.com Repository**
 
@@ -117,29 +117,6 @@ Your **git repository** should include the following components:
 
 Here is a simple guide on [how to organize your data science git repo](https://medium.com/swlh/how-to-set-up-a-data-science-project-1a42a96d4ea2)
 
-
-**Video Presentation (10 min or less)**
-
-The goal of video is to explain the business value of your project to bring people on board with your idea. In the meantime, you need to describe the technology/methodology sufficiently for people to develop a high level understanding of your approach. Keep in mind that you should explain technical concepts in an intuitive way so that people without data science backgrounds can make sense of it.
-
-You may leverage [**voicethread**](https://it.umn.edu/services-technologies/voicethread) for collaboratively recording a video. but feel free to use other recording tools. 
-
-In general, each member of the team should present part of the project video. 
-
-As you prepare your presentation, consider the following:
-
-* **What’s the “big idea” or headline message for the project?** What value/benefits does it offer this audience? Why should they care? How will it help this audience achieve a goal or address a problem they have? What motivated your team to choose this topic?  
-* **In what context(s) is your project relevant?** How is it *similar* to other approaches/tools used in that context? How is it *different* from other approaches/tools used in that context?   
-* **How will you convince the audience that the value/benefits are real?** What evidence will you provide? How will you illustrate the value/benefit? Will you provide a demonstration? Use cases? Proof of concept?  
-* **Which technical aspects need to be covered?** What does this audience need to know about the data, approach, processes, tools, or methodology used? You likely won’t be able to cover everything, so consider what is most interesting to your audience, as well as which details help illustrate the value/benefit. For example:  
-    - Data sources, types, characteristics, etc.  
-    - Descriptive analytics or statistics  
-    - Screenshots, illustrations, demos, flow-charts, etc.  
-* **How will you present the content effectively?** Most teams will likely use PowerPoint or other slide software. Consider how you will use visuals and demos to support your case.  
-* **Concluding remarks**: How can you reinforce the big idea? What might be some future directions you want to discuss? What did you learn from the project?
-
-Your presentation *should not* be point-by-point answers to the above questions. Rather, you should craft a coherent presentation that effectively communicates your project to the audience. 
-
 ## **Grading** {#3.-evaluation}
 
 We use the following evaluation methods:
@@ -156,7 +133,7 @@ Evaluations will generally use the following criteria:
 * **Technical Quality** (20%): The technical approach of the project is sound and appropriate. 
 * **Presentation** (30%): The presentation is clear, effective, and well organized. Instructor evaluation may take into account the organization and completeness of the team's github repository. 
 * **Novelty** (20%): The team introduces a technology, solution approach, or problem domain. The project demonstrates creativity and innovation. 
-* **Professionalism** (10%): The team conducts themselves professionally in presentations and interactions. The video presentation adheres to professional standards.
+* **Professionalism** (10%): The team conducts themselves professionally in presentations and interactions. 
 
 Teammate Evaluation 
 
