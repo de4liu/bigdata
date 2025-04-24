@@ -89,6 +89,7 @@ On the day of the Trends Market, each team will have a table to showcase their w
 
 Prior to the day of the Trend Marketplace, the team will need to prepare the following material:
 
+* Each student wear a name tag/sticker to make it easier to interact with guests. Please feel free to reuse ones from prior events; we may have limited supply of blank ones for you to write your name on.
 * A two-page / 1 sheet **handout** that summarizes the project, data, methodology, results/takeaways.
     - The handout should **clearly mark team Number and member names**.   
 * Prepare a short (< 5 minute) **briefing** that includes:
