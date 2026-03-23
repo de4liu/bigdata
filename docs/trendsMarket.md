@@ -1,18 +1,17 @@
-# Big Data and AI Trends Market, Spring 2025
+# Big Data and AI Trends Market, Spring 2026 - From Data to Action: Agentic AI Systems on Big Data Platforms*
+*Draft revision: 2026-03-23*
 
-*Draft revision: 2025-02-23*
-
-**Time/Location: April 25, 3:00-4:30pm Humphrey**
+**Time/Location: April 24, 3:00-4:30pm Humphrey**
 
 ## **Goals and Requirements** {#1.-project-goals-and-requirements}
 
-The fields of big data, cloud computing, and AI are fast-moving and expertise in those areas are in demand. Many companies leverage scalable infrastructure to handle structured data, semi-structured, and unstructured data, and address data volume, variety, velocity, and veracity challenges using modern tools, pipelines, and platforms (especially cloud-based ones). This year's theme will encompass AI (especially Generative AI) - teams are encouraged to explore Gen AI & AI applications. 
+The fields of big data, cloud computing, and AI are fast-moving and expertise in those areas are in demand. Many companies leverage scalable infrastructure to handle structured data, semi-structured, and unstructured data, and address data volume, variety, velocity, and veracity challenges using modern tools, pipelines, and platforms (especially cloud-based ones). This year's theme emphasizes moving **from data to action**, including applications of Generative and Agentic AI. AI/agentic components are aspirational and encouraged, but not an absolute requirement.
 
 The trend marketplace project aims for two types of goals. Your team may place emphasis on either one or both of them: 
 
-* **Goal A. (Problem Solving with Big Data/AI)** Identify a meaningful business problem and ***real-world*** dataset that could be leveraged to address the problem. You team will implement an appealing big data/AI solution to solve the problem. 
+* **Goal A. (Problem Solving with Big Data/AI)** Identify a meaningful business problem and ***real-world*** dataset that could be leveraged to address the problem. Your team will implement an appealing big data solution, potentially enhanced by generative/agentic AI, to produce actionable outcomes.
 
-* **Goal B. (Explore Novel Big Data/AI Technologies)** Learn and research a novel big data/AI technology. Through research about the technology and building of a prototypical use case(s) using the technology, your gain understanding of the technology and its applications and its merits/shortcomings.
+* **Goal B. (Explore Novel Big Data/AI Technologies)** Learn and research a novel big data/AI technology. Through research and prototyping one or more use cases, your team will build understanding of the technology, applications, and merits/shortcomings. This may include generative/agentic AI workflows, but such AI use is optional.
 
 ### **Business Value** {#1.1-business-value-requirement}
 
@@ -29,7 +28,7 @@ The most effective way of practicing data skills is to work with real world data
     
 ### **Technology** {#1.3-technology-requirement}
 
-Every team project is expected to leverage big data/AI technologies, be it technologies we cover in the course (e.g. Hive, Spark, Cloud technologies) or ones we did not cover. Technologies are interpreted broadly, which may include (but not limited to) big data, cloud computing, Gen AI, and NoSQL technologies. Projects completed following MLOps practices are valued.
+Every team project is expected to leverage big data/AI technologies, be it technologies we cover in the course (e.g. Hive, Spark, Cloud technologies) or ones we did not cover. Technologies are interpreted broadly, which may include (but not limited to) big data, cloud computing, Gen AI, and NoSQL technologies. Use of GenAI/agentic AI is desirable but not required. Projects completed following MLOps practices are valued.
 
 Ideally, your entire data pipeline is built to scale, but I also accept projects that have some (but not all) steps that use non-scalable technologies. 
 
@@ -49,7 +48,7 @@ The first milestone is to submit your **project proposal** to get instructor fee
 
 - **Proposal is not graded, and is only for obtaining feedback and approval.** 
 - Please submit your project **proposal draft** l through the instructor designated google doc (a separate doc for each team).  
-- The approved **proposal**/**abstract** will be shared in this [Google doc](https://docs.google.com/document/d/1N0Xt_rOYABV7DEuAdMEXxPVD1Zi7b1rzIxlgxM0d4iY/edit?usp=sharing).
+- The approved **proposal**/**abstract** will be shared in this [Google doc](https://docs.google.com/document/d/1d1HGXmg2P-DcHpRe-YaK3DGlhXAl9gRVRRD1ZOsH7gE/edit?usp=sharing).
 
 Your proposal should have these elements
 
@@ -63,14 +62,30 @@ Your proposal should have these elements
         - What is the topic of your project 
         - what kinds of data you will use (how you get it, **provide links to data sources**). 
         - What kinds of analysis do you plan to do? Who is your target audience? 
-        - which tools will be leveraged for major steps of data engineering and analysis (ingestion, ETL, exploration, model building, deployment etc).     
+        - which tools will be leveraged for major steps of data engineering and analysis (ingestion, ETL, exploration, model building, deployment etc).
+        - if using AI, where AI is used in the architecture and what model/tool stack you selected (and why).
+        - if using AI, how outputs will be validated (e.g., quality checks, hallucination controls, reliability metrics) and what safeguards you plan to use (privacy, bias, cost, fallback/human review).    
 
     - Goal B - Explore Novel Big Data/AI Technologies 
       
         - what kind of technology you plan to focus on, 
         - what you plan to cover in your demonstration, 
         - where resources you plan to draw upon (books, videos, PPTs, articles etc \- so that the instructor can also evaluate the feasibility and interestingness). 
-        - If you proposal includes a use case, describe what kinds of analysis you plan to do, including links to possible data sources.
+        - If your proposal includes a use case, describe what kinds of analysis you plan to do, including links to possible data sources.
+        - if using AI, describe the intended workflow (e.g., retrieval, tool use, agent steps), expected value, and how you will evaluate performance and risk.
+
+### **Examples: How Teams May Leverage AI (Optional)**
+
+These are examples of optional enhancements. Projects can still be strong without GenAI/agentic AI if they deliver business value and technical rigor.
+
+* Build a **RAG assistant** over enterprise/public documents using Spark preprocessing and vector indexing for grounded Q&A.
+* Create an **incident triage workflow** that reads logs/metrics, proposes root causes, and drafts response playbooks for analyst approval.
+* Implement a **marketing insights copilot** that summarizes customer feedback streams and recommends segment-level actions.
+* Design a **supply-chain exception workflow** that monitors forecast/inventory data and recommends reorder or routing actions.
+* Develop a **data quality remediation assistant** that detects schema drifts/anomalies and proposes ETL fixes with confidence scores.
+* Build a **BI narrative generator** that converts dashboard trends into executive summaries with cited evidence.
+* Prototype a **data-engineering copilot** for generating SQL/PySpark transformations with unit-test checks.
+* Build an **AI evaluation harness** comparing prompt/model/workflow strategies on latency, cost, factuality, and task success.
 
 **The project proposal workflow is as follows**:
 
@@ -99,7 +114,7 @@ Prior to the day of the Trend Marketplace, the team will need to prepare the fol
 ### **Post-event Final deliverable** {#2.4-final-deliverable}
 
 
-* Please submit your **github** link to the  [Google doc](https://docs.google.com/document/d/1N0Xt_rOYABV7DEuAdMEXxPVD1Zi7b1rzIxlgxM0d4iY/edit?usp=sharing) as well as the **Trends Market assignment** on canvas before the submission deadline.
+* Please submit your **github** link to the  [Google doc](https://docs.google.com/document/d/1d1HGXmg2P-DcHpRe-YaK3DGlhXAl9gRVRRD1ZOsH7gE/edit?usp=sharing) as well as the **Trends Market assignment** on canvas before the submission deadline.
 
 **Github.com Repository**
 
@@ -130,9 +145,9 @@ We use the following evaluation methods:
 Evaluations will generally use the following criteria:
 
 * **Business value** (20%): The project topic is meaningful/interesting for intended audience. The problem being addressed is relevant, with clear potential impact.
-* **Technical Quality** (20%): The technical approach of the project is sound and appropriate. 
+* **Technical Quality** (20%): The technical approach of the project is sound and appropriate, with reproducible methods, clear evaluation, and an implementation quality that matches project scope. If AI is used, we also evaluate grounding, reliability, and governance choices.
 * **Presentation** (30%): The presentation is clear, effective, and well organized. Instructor evaluation may take into account the organization and completeness of the team's github repository. 
-* **Novelty** (20%): The team introduces a technology, solution approach, or problem domain. The project demonstrates creativity and innovation. 
+* **Novelty** (20%): The team introduces a technology, solution approach, or problem domain. The project demonstrates creativity and innovation. AI/agentic elements can strengthen novelty but are not required.
 * **Professionalism** (10%): The team conducts themselves professionally in presentations and interactions. 
 
 Teammate Evaluation 
@@ -145,13 +160,13 @@ Teammate Evaluation
 
 See below for sample projects from previous years’ full-time MSBA students (please note that there are a number of stream projects because we had time to get a bit into streaming during the fall semester). You are welcome to reuse and expand on these projects (but you **should always give credits to prior work including what you’ve found on the Internet**). 
 
+[2025 Projects](https://docs.google.com/document/d/1N0Xt_rOYABV7DEuAdMEXxPVD1Zi7b1rzIxlgxM0d4iY/edit?usp=sharing) 
+
 [2023 Projects](https://docs.google.com/document/d/1n2qQesesv1fnx1xK8l5hWFSQQMpWTDiDJDOqD36opRk/edit?usp=sharing) 
 
 [2022 Projects](https://docs.google.com/document/d/1zOiloR3qzdbmJ94uSU4ZAcX7kQvp7XwHMzq9LZSmpX8/edit#) 
   
 [2021 Projects](https://docs.google.com/document/d/1LzpoFmE9hWQai-YXaW8j4pPbho262HMn25fnKiMoF1U/edit)
-
-[2019 Projects](https://docs.google.com/document/d/1krhEKwZ_bOwXYsPY1xCp1E9TvvnNOOEo5nNQb36BCbQ/edit)
 
 
 ## Public Datasets
