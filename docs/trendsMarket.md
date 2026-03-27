@@ -32,9 +32,9 @@ Every team project is expected to leverage big data/AI technologies, be it techn
 
 Ideally, your entire data pipeline is built to scale, but I also accept projects that have some (but not all) steps that use non-scalable technologies. 
 
-### **Carlson Technology Support** {#1.4-technology-support}
+### **IT Resources/Support** {#1.4-technology-support}
 
-**Carlson IT** will collaborate with us to provide access to a vareity cloud computing resources on a case-by-case basis. You have give them enough lead time to make it work. Please follow the [guidelines and procedures](assets/it_support.pdf) for obtaining Carlson IT support. 
+**Carlson IT** will collaborate with us to provide access to a vareity cloud computing resources on a case-by-case basis -- which may include **servers, AWS (via Kion), Azure, AI Foundry, Databricks, and more—within reason**. You have give them enough lead time to make it work. Please follow the [guidelines and procedures](assets/it_support.pdf) for obtaining Carlson IT support. 
 
 - When you plan to use Carlson IT support, please make a note in your proposal.
 - Please cc-me in your communication with CSOM IT support. 
