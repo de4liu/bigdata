@@ -1025,10 +1025,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-install-visual-studio-code" class="md-nav__link">
+  <a href="#install-visual-studio-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Install Visual Studio Code
+        Install Visual Studio Code
       
     </span>
   </a>
@@ -1036,10 +1036,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-install-git" class="md-nav__link">
+  <a href="#install-git" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Install Git
+        Install Git
       
     </span>
   </a>
@@ -1047,10 +1047,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-create-a-github-account-and-sign-in" class="md-nav__link">
+  <a href="#create-a-github-account-and-sign-in" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Create a GitHub account and sign in
+        Create a GitHub account and sign in
       
     </span>
   </a>
@@ -1058,10 +1058,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-connect-to-github-with-https-personal-access-token" class="md-nav__link">
+  <a href="#connect-to-github-with-https-personal-access-token" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Connect to GitHub with HTTPS (personal access token)
+        Connect to GitHub with HTTPS (personal access token)
       
     </span>
   </a>
@@ -1069,10 +1069,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-quick-pre-lab-checklist" class="md-nav__link">
+  <a href="#quick-pre-lab-checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Quick pre-lab checklist
+        Quick pre-lab checklist
       
     </span>
   </a>
@@ -1227,51 +1227,55 @@
 <li><strong>Git</strong> installed on your computer  </li>
 <li>A <strong>GitHub</strong> account (free tier is fine)  </li>
 <li><strong>Visual Studio Code</strong> installed (recommended for editing files and resolving merge conflicts)  </li>
-<li>Ability to authenticate to GitHub over <strong>HTTPS</strong> using a <strong>personal access token</strong> when Git prompts for a password (set this up ahead of time; see section 4)</li>
+<li>Ability to authenticate to GitHub over <strong>HTTPS</strong> using a <strong>personal access token</strong> when Git prompts for a password (set this up ahead of time; see <strong>Connect to GitHub with HTTPS</strong> below)</li>
 </ul>
 <p>If any of the above is missing, complete the checklist below <strong>before</strong> lab day.</p>
 <hr />
-<h2 id="1-install-visual-studio-code">1. Install Visual Studio Code</h2>
+<h2 id="install-visual-studio-code">Install Visual Studio Code</h2>
 <ol>
 <li>Download and install <strong>VS Code</strong> from the <a href="https://code.visualstudio.com/">Visual Studio Code download page</a>.  </li>
-<li>After install, confirm it works</li>
+<li>After install, confirm it works: open a terminal and run <code>code --version</code>.</li>
 </ol>
 <hr />
-<h2 id="2-install-git">2. Install Git</h2>
+<h2 id="install-git">Install Git</h2>
 <ol>
-<li>Install Git for your OS from the <a href="https://git-scm.com/downloads">official Git downloads page (Windows, macOS, Linux)</a>.  </li>
+<li>
+<p>Install Git for your OS from the <a href="https://git-scm.com/downloads">official Git downloads page (Windows, macOS, Linux)</a>.  </p>
+<ul>
 <li><strong>Windows:</strong> Use the official installer; choose <strong>Git Bash</strong> when prompted if you want a Unix-like shell for class examples.  </li>
 <li><strong>macOS:</strong> Xcode Command Line Tools include Git, or use the installer from git-scm.com / Homebrew.  </li>
-<li>
-<p><strong>Linux:</strong> Use your package manager (e.g. <code>sudo apt install git</code> on Debian/Ubuntu).</p>
+<li><strong>Linux:</strong> Use your package manager (e.g. <code>sudo apt install git</code> on Debian/Ubuntu).</li>
+</ul>
 </li>
 <li>
 <p>Verify:</p>
-</li>
-</ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>--version
 </code></pre></div>
-<ol>
-<li>Set your <strong>name</strong> and <strong>email</strong> (use your real name and the email you will use with GitHub—often your school email):</li>
-</ol>
+</li>
+<li>
+<p>Set your <strong>name</strong> and <strong>email</strong> (use your real name and the email you will use with GitHub—often your school email):</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;Your Name&quot;</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;your.email@example.com&quot;</span>
 </code></pre></div>
+<p>More detail: <a href="https://de4liu.github.io/bigdata/FAQs/configGit/">MSBA 6331 course page — Configure Git (user name, email, credential helper)</a>.</p>
+</li>
+</ol>
 <hr />
-<h2 id="3-create-a-github-account-and-sign-in">3. Create a GitHub account and sign in</h2>
+<h2 id="create-a-github-account-and-sign-in">Create a GitHub account and sign in</h2>
 <ol>
 <li><a href="https://github.com/">Create a GitHub account or sign in</a> if you do not already have one.  </li>
 <li>Sign in in the browser and confirm you can see your profile.</li>
 </ol>
 <hr />
-<h2 id="4-connect-to-github-with-https-personal-access-token">4. Connect to GitHub with HTTPS (personal access token)</h2>
+<h2 id="connect-to-github-with-https-personal-access-token">Connect to GitHub with HTTPS (personal access token)</h2>
 <p>We use <strong>HTTPS</strong> only (<code>https://github.com/...</code> URLs). When you <code>git push</code>, <code>git pull</code>, or <code>git clone</code> from the command line, Git will ask for credentials: use your <strong>GitHub username</strong> and, for the password, a <strong>personal access token</strong> (PAT)—not your GitHub account password.</p>
 <ol>
 <li>Create a token in GitHub (<strong>Settings</strong> → <strong>Developer settings</strong> → <strong>Personal access tokens</strong>). Generate a token with at least <strong>repo</strong> scope for private repositories. For detailed steps, see <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic">GitHub Docs: Creating a personal access token</a>. Copy the token once and store it somewhere safe (e.g. a password manager); you will not see it again.  </li>
 <li>The first time Git prompts for a password, paste the <strong>token</strong>.  </li>
+<li>Optional: cache credentials so you are not prompted every time—see <a href="https://de4liu.github.io/bigdata/FAQs/configGit/">MSBA 6331 course page — Configure Git (credential helper)</a>.</li>
 </ol>
 <hr />
-<h2 id="5-quick-pre-lab-checklist">5. Quick pre-lab checklist</h2>
+<h2 id="quick-pre-lab-checklist">Quick pre-lab checklist</h2>
 <table>
 <thead>
 <tr>
@@ -1298,6 +1302,10 @@
 </tr>
 <tr>
 <td>Personal access token created (repo access); you know how to paste it when Git asks for a password</td>
+<td>☐</td>
+</tr>
+<tr>
+<td>Optional: <code>credential.helper</code> set if you want fewer prompts</td>
 <td>☐</td>
 </tr>
 </tbody>
