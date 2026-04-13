@@ -49,12 +49,13 @@ nav:
         - "View Delimiters and Invisible Characters": FAQs/viewdelimiters.md
         - "Windows Commands 101": FAQs/windows_cmd.md
     - "Pre-work": prework.md
+    - "Git Lab Prework": git_prework.md
     - "Homework Guidelines": homework-guidelines.md
     - "Trends Market": trendsMarket.md
     - "Public Datasets": datasets.md
-    - "Lab Reference": lab_appendix.md
+    # - "Lab Reference": lab_appendix.md
     - "Kion Cloud Portal": kion.md
-    - "Final Exam Guide": finalexamguide.md
+    # - "Final Exam Guide": finalexamguide.md
 
 
 plugins:

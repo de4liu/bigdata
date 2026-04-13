@@ -2,10 +2,6 @@
 
 Before the **Lab 13-1: Git for Version Control and Collaboration in MLOps** session, please set up your machine and GitHub access so we can spend class time on Git workflows instead of installation issues.
 
-## What you will do in the lab
-
-You will practice local Git basics, connect a repository to GitHub, collaborate with a second clone, use a feature branch, merge, resolve a merge conflict, and inspect history. Follow the full instructions in **`Lab13-1-git.md`**. All `git remote` and `git clone` examples use **HTTPS** URLs (`https://github.com/...`).
-
 **Official prerequisites for the lab:**
 
 - **Git** installed on your computer  
