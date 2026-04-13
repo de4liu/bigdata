@@ -16,7 +16,7 @@ If any of the above is missing, complete the checklist below **before** lab day.
 ## 1. Install Visual Studio Code
 
 1. Download and install **VS Code** from the [Visual Studio Code download page](https://code.visualstudio.com/).  
-2. After install, confirm it works: open a terminal and run `code --version`.
+2. After install, confirm it works
 
 ---
 
@@ -40,16 +40,12 @@ If any of the above is missing, complete the checklist below **before** lab day.
    git config --global user.email "your.email@example.com"
    ```
 
-   More detail: [MSBA 6331 course page — Configure Git (user name, email, credential helper)](https://de4liu.github.io/bigdata/FAQs/configGit/).
-
 ---
 
 ## 3. Create a GitHub account and sign in
 
 1. [Create a GitHub account or sign in](https://github.com/) if you do not already have one.  
 2. Sign in in the browser and confirm you can see your profile.
-
-You will use this account to create a **private** repository during the lab.
 
 ---
 
@@ -59,15 +55,6 @@ We use **HTTPS** only (`https://github.com/...` URLs). When you `git push`, `git
 
 1. Create a token in GitHub (**Settings** → **Developer settings** → **Personal access tokens**). Generate a token with at least **repo** scope for private repositories. For detailed steps, see [GitHub Docs: Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Copy the token once and store it somewhere safe (e.g. a password manager); you will not see it again.  
 2. The first time Git prompts for a password, paste the **token**.  
-3. Optional: cache credentials so you are not prompted every time—see [MSBA 6331 course page — Configure Git (credential helper)](https://de4liu.github.io/bigdata/FAQs/configGit/).
-
-Example remote URL (this is what the lab uses):
-
-```text
-https://github.com/YOUR_USERNAME/lab13-1-git.git
-```
-
-Quick reference: [MSBA 6331 course page — Git cheatsheet](https://de4liu.github.io/bigdata/FAQs/cheatsheet_git/).
 
 ---
 
@@ -80,5 +67,4 @@ Quick reference: [MSBA 6331 course page — Git cheatsheet](https://de4liu.githu
 | `git config` name and email set | ☐ |
 | GitHub account ready | ☐ |
 | Personal access token created (repo access); you know how to paste it when Git asks for a password | ☐ |
-| Optional: `credential.helper` set if you want fewer prompts | ☐ |
 
