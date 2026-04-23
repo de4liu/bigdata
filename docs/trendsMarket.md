@@ -105,9 +105,12 @@ These are examples of optional enhancements. Projects can still be strong withou
 
 Once the project starts, if your team requires assistance from the instructor, please make an appointment on a case-by-case basis. 
 
-### **Event Day Deliverables** {#2.2-trend-marketplace}
+### **Event Day Format and Guidelines** {#2.2-trend-marketplace}
 
-On the day of the Trends Market, each team will have a table to showcase their work for peers, external evaluators, and professors, and prepare to give a short presentation with Q\&A. 
+
+See the [Event Day format and guidelines here](trends-guide-students.md).
+
+<!-- On the day of the Trends Market, each team will have a table to showcase their work for peers, external evaluators, and professors, and prepare to give a short presentation with Q\&A. 
 
 Prior to the day of the Trend Marketplace, the team will need to prepare the following material:
 
@@ -116,7 +119,7 @@ Prior to the day of the Trend Marketplace, the team will need to prepare the fol
     - The handout should **clearly mark team Number and member names**.   
 * Prepare a short (< 5 minute) **briefing** that includes:
     - A demonstration of the technology or solution, or
-    - A slideshow or poster board summary
+    - A slideshow or poster board summary -->
 
 ### **Post-event Final deliverable** {#2.4-final-deliverable}
 
