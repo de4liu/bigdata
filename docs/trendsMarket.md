@@ -108,7 +108,7 @@ Once the project starts, if your team requires assistance from the instructor, p
 ### **Event Day Format and Guidelines** {#2.2-trend-marketplace}
 
 
-See the [Event Day format and guidelines here](trends-guide-students.md).
+See the **Trends Student Guide**.
 
 <!-- On the day of the Trends Market, each team will have a table to showcase their work for peers, external evaluators, and professors, and prepare to give a short presentation with Q\&A. 
 
