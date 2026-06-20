@@ -3,6 +3,8 @@
 
 **Time/Location: April 24, 3:00-4:30pm Humphrey**
 
+> **Past projects and winners:** Browse archived project showcases, winners, and photos from prior Trends Markets at **[de4liu.github.io/trends](https://de4liu.github.io/trends/)**.
+
 ## **Goals and Requirements** {#1.-project-goals-and-requirements}
 
 The fields of big data, cloud computing, and AI are fast-moving and expertise in those areas are in demand. Many companies leverage scalable infrastructure to handle structured data, semi-structured, and unstructured data, and address data volume, variety, velocity, and veracity challenges using modern tools, pipelines, and platforms (especially cloud-based ones). This year's theme emphasizes moving **from data to action**, including applications of Generative and Agentic AI. AI/agentic components are aspirational and encouraged, but not an absolute requirement.
@@ -168,7 +170,9 @@ Teammate Evaluation
 
 ## Sample Past Projects {#1.4-sample-projects-from-the-past}
 
-See below for sample projects from previous years’ full-time MSBA students (please note that there are a number of stream projects because we had time to get a bit into streaming during the fall semester). You are welcome to reuse and expand on these projects (but you **should always give credits to prior work including what you’ve found on the Internet**). 
+For a browsable archive of **past projects, winners, and event photos**, see the [Big Data and AI Trends Market site](https://de4liu.github.io/trends/).
+
+See below for additional sample project lists from previous years’ full-time MSBA students (please note that there are a number of stream projects because we had time to get a bit into streaming during the fall semester). You are welcome to reuse and expand on these projects (but you **should always give credits to prior work including what you’ve found on the Internet**). 
 
 [2025 Projects](https://docs.google.com/document/d/1N0Xt_rOYABV7DEuAdMEXxPVD1Zi7b1rzIxlgxM0d4iY/edit?usp=sharing) 
 
