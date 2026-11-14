@@ -2,4 +2,4 @@
 # # use pip-tools to generate requirements.txt from requirements.in
 # pip-compile requirements.in
 
-mkdocs-material[imaging]
+zensical>=0.1.1

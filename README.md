@@ -1,16 +1,24 @@
 # MSBA 6331 Big Data Analytics (Fall 2025)
 
+The site is built with [Zensical](https://zensical.org) (the successor to Material for MkDocs) and deployed to GitHub Pages by `.github/workflows/docs.yml` on every push to `main`.
+
+## Local setup
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate    # on Windows: call activate-python.bat
+pip install -r requirements.txt
+```
 
 ## Commands
 
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs gh-deploy` - Deploy the projects to github
+* `zensical serve` - Start the live-reloading docs server.
+* `zensical build --strict` - Build the site (fails on warnings).
+* `zensical -h` - Print help message and exit.
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
+    zensical.toml # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
@@ -21,7 +29,7 @@ This repository servers as a public homepage for MSBA 6331 - Big Data Analytics 
 [public homepage page](https://de4liu.github.io/bigdata/)
 
 ## Syllabus
-- [Syllabus](syllabus.html): also [public syllabus](https://de4liu.github.io/bigdata/syllabus.html)
+- [Syllabus](syllabus.html) (repo copy only; not published to the site)
 
 ## Homework Related Instructions & Questions
 - [Homework Guidelines](faqs/homework-guidelines.md)

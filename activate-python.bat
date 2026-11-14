@@ -1,2 +1,2 @@
 @REM for windows environment
-call env/scripts/activate.bat
+call .venv\Scripts\activate.bat

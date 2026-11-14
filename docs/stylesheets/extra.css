@@ -1,0 +1,12 @@
+/*
+  Keep the top-level tab bar visible at all widths. The Zensical theme
+  hides .md-tabs below ~76.25em and folds all navigation into the
+  hamburger drawer, which hurts discovery on smaller windows, tablets,
+  and phones. The tab bar scrolls horizontally (overflow:auto with edge
+  fade), so it stays usable at narrow widths.
+*/
+@media screen and (max-width: 76.234375em) {
+  .md-tabs {
+    display: block;
+  }
+}
