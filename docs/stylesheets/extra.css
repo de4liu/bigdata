@@ -30,9 +30,51 @@
   padding-bottom: 0.3em;
 }
 
-/* Active tab underline in maroon instead of default black */
+/*
+  Maroon masthead and tab bar, in the style of umn.edu. Text and icons
+  switch to white; the active tab underline becomes gold so it stays
+  visible on maroon. In dark mode the vars resolve to deep maroon, so
+  the same rules apply without a separate slate block.
+*/
+.md-header {
+  background-color: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+.md-header__title,
+.md-header__button {
+  color: #fff;
+}
+
+.md-search__form {
+  background-color: rgb(0 0 0 / 0.18);
+}
+
+.md-search__input,
+.md-search__input::placeholder {
+  color: #fff;
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-tabs__link,
+.md-tabs__item {
+  color: #fff;
+}
+
+.md-tabs__link {
+  opacity: 0.75;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
 .md-tabs__item--active {
-  border-bottom-color: var(--md-primary-fg-color);
+  border-bottom-color: #ffcc33;
 }
 
 /*
@@ -124,7 +166,7 @@
   .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: .1rem .9rem;
+    gap: .1rem .5rem;
     padding: .3rem 0 .5rem;
   }
   .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list::before,
@@ -133,7 +175,8 @@
   }
   .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
     font-size: .65rem;
-    padding: .2rem 0;
+    padding: .2rem .45rem;
+    margin: 0 .15rem;
   }
 
   /* hide the integrated page TOC inside the strip */
