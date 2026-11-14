@@ -46,13 +46,24 @@
   color: #fff;
 }
 
-.md-search__form {
-  background-color: rgb(0 0 0 / 0.18);
+.md-search__button {
+  color: #fff;
+  background-color: rgb(255 255 255 / 0.22);
 }
 
-.md-search__input,
-.md-search__input::placeholder {
+.md-search__button::before {
+  background-color: #fff;
+}
+
+.md-search__button::after {
+  background-color: rgb(255 255 255 / 0.9);
+  color: var(--md-default-fg-color);
+}
+
+.md-search__button:focus,
+.md-search__button:hover {
   color: #fff;
+  background-color: rgb(255 255 255 / 0.32);
 }
 
 .md-tabs {
