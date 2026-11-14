@@ -1,4 +1,55 @@
 /*
+  Carlson School / University of Minnesota colors
+  (brand.carlsonschool.umn.edu/look-like/colors):
+    Maroon #7A0019, Gold #FFCC33, Ivory #E6E0D2.
+  In dark mode the accent and link color are gold: maroon itself is too
+  dark to read on the slate background, and gold-on-dark has ample
+  contrast (gold is never used as text on light backgrounds, where it
+  would fail WCAG contrast).
+*/
+:root > * {
+  --md-primary-fg-color: #7a0019;
+  --md-primary-fg-color--light: #9c1a34;
+  --md-primary-fg-color--dark: #4d0010;
+  --md-accent-fg-color: #7a0019;
+  --md-accent-fg-color--transparent: #7a001914;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4d0010;
+  --md-primary-fg-color--light: #7a0019;
+  --md-primary-fg-color--dark: #300009;
+  --md-accent-fg-color: #ffcc33;
+  --md-accent-fg-color--transparent: #ffcc3326;
+  --md-typeset-a-color: #ffcc33;
+}
+
+/* Understated gold accent rule under page titles, not used for text color */
+.md-typeset h1 {
+  border-bottom: 3px solid #ffcc33;
+  padding-bottom: 0.3em;
+}
+
+/* Active tab underline in maroon instead of default black */
+.md-tabs__item--active {
+  border-bottom-color: var(--md-primary-fg-color);
+}
+
+/*
+  Underline links in body text so they're distinguishable from regular
+  text by more than color alone. Excludes heading permalink icons.
+*/
+.md-typeset a:not(.headerlink) {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.15em;
+}
+
+.md-typeset a:not(.headerlink):hover {
+  text-decoration-thickness: 2px;
+}
+
+/*
   Keep the top-level tab bar visible at all widths. The Zensical theme
   hides .md-tabs below ~76.25em and folds all navigation into the
   hamburger drawer, which hurts discovery on smaller windows, tablets,
