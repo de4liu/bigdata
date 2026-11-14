@@ -57,7 +57,7 @@
 
 .md-search__button::after {
   background-color: rgb(255 255 255 / 0.9);
-  color: var(--md-default-fg-color);
+  color: #300009;
 }
 
 .md-search__button:focus,
