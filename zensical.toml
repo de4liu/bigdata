@@ -26,14 +26,20 @@ nav = [
     { "View Delimiters and Invisible Characters" = "FAQs/viewdelimiters.md" },
     { "Windows Commands 101" = "FAQs/windows_cmd.md" },
   ] },
-  { "Pre-work" = "prework.md" },
-  { "Git Lab Prework" = "git_prework.md" },
-  { "Homework Guidelines" = "homework-guidelines.md" },
-  { "Trends Market" = "trendsMarket.md" },
-  { "Trends Student Guide" = "trends-guide-students.md" },
-  { "Trends Guest Guide" = "trends-guest-guide.md" },
-  { "Public Datasets" = "datasets.md" },
-  { "Kion Cloud Portal" = "kion.md" },
+  { "Course Setup" = [
+    { "Pre-work" = "prework.md" },
+    { "Git Lab Prework" = "git_prework.md" },
+    { "Homework Guidelines" = "homework-guidelines.md" },
+  ] },
+  { "Trends" = [
+    { "Trends Market" = "trendsMarket.md" },
+    { "Trends Student Guide" = "trends-guide-students.md" },
+    { "Trends Guest Guide" = "trends-guest-guide.md" },
+  ] },
+  { "Resources" = [
+    { "Public Datasets" = "datasets.md" },
+    { "Kion Cloud Portal" = "kion.md" },
+  ] },
 ]
 
 extra_css = ["stylesheets/extra.css"]

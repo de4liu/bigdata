@@ -10,3 +10,83 @@
     display: block;
   }
 }
+
+/*
+  Second-level navigation as a horizontal strip under the tab bar.
+  The theme renders the primary nav as an off-canvas drawer below
+  ~76.25em, so section children are invisible until the hamburger is
+  opened. Instead, repurpose the same markup: keep the sidebar in
+  normal flow (full width, above the content), show only the active
+  top-level item, and lay its children out as a wrapping row of links.
+  Page TOC (md-nav--secondary) and the drawer title are hidden.
+*/
+@media screen and (max-width: 76.234375em) {
+  .md-main__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .md-sidebar--primary {
+    position: static;
+    left: auto;
+    width: 100%;
+    height: auto;
+    padding: 0 .4rem;
+    transform: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    z-index: auto;
+    transition: none;
+    flex: 0 0 100%;
+    order: -1;
+    border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+  }
+
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    position: static;
+    overflow: visible;
+  }
+
+  .md-sidebar--primary .md-sidebar__inner {
+    padding: 0;
+  }
+
+  .md-sidebar--primary .md-nav__title,
+  .md-header__button[for=__drawer] {
+    display: none !important;
+  }
+
+  /* strip = children of the active top-level item only */
+  .md-nav--primary > .md-nav__list > .md-nav__item {
+    display: none;
+  }
+  .md-nav--primary > .md-nav__list > .md-nav__item--active {
+    display: block;
+  }
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    display: none;
+  }
+
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .1rem .9rem;
+    padding: .3rem 0 .5rem;
+  }
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list::before,
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list::after {
+    display: none;
+  }
+  .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+    font-size: .65rem;
+    padding: .2rem 0;
+  }
+
+  /* hide the integrated page TOC inside the strip */
+  .md-sidebar--primary .md-nav__item--active .md-nav--secondary {
+    display: none !important;
+  }
+}
